@@ -15,7 +15,7 @@ void main () {
   }
 });
 
-module.exports = GL.createComponent(
+module.exports = GL.create(
   ({ children: t, matrix: m }) =>
   <GL.Node
     shader={shaders.ColorMatrix}
